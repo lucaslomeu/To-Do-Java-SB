@@ -28,6 +28,14 @@ public class UserModel {
     private LocalDateTime createdAt;
 
     // Getters and setters
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
     public String getUsername() {
         return username;
     }
